@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+---
+## Deployment & Performance Optimization Rules
+- Ensure the application is containerized using Docker.
+- Use Nginx or another web server for frontend hosting.
+- Optimize backend response times for large ONNX models.
+- Enable caching for frequently accessed models.
+- Implement lazy loading for large model visualizations.
+- Deploy on cloud platforms with auto-scaling capabilities.
+- Monitor API performance with tools like Prometheus.
+- Ensure the frontend is served with gzip compression.

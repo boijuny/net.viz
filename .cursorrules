@@ -1,0 +1,166 @@
+## General Guidelines
+- Follow best practices in software development
+- Ensure error handling is implemented in all critical areas
+- Code should be well-documented with meaningful comments
+- Use consistent naming conventions across the project
+- Validate user inputs and handle edge cases gracefully
+- Optimize performance, especially for large ONNX models
+- Implement unit tests for all major functionalities
+- Ensure the tool remains lightweight and responsive
+- Follow data privacy and security best practices
+- Implement proper version control and tracking
+- Add telemetry for user behavior analysis
+- Implement A/B testing capabilities
+
+## Project-Specific Guidelines
+- Use virtualenv to create a virtual Python environment for backend
+- Keep all Python dependencies in backend/requirements.txt
+- Keep all Node.js dependencies in frontend/package.json
+- Never install npm packages in root directory
+- Always run npm commands from frontend directory
+- Use FastAPI for the backend
+- Use React.js for the frontend
+- Use Typescript for the frontend
+- Implement OpenTelemetry for observability
+- Add performance monitoring
+- Implement user feedback collection
+- Add usage analytics dashboard
+
+## UI/UX Guidelines
+- Implement a modern design system using shadcn/ui
+- Use Tailwind CSS for consistent styling
+- Follow a cohesive color scheme inspired by modern tools
+- Ensure responsive design for all screen sizes
+- Implement smooth transitions and micro-interactions
+- Support both light and dark themes
+- Use modern loading states and skeleton screens
+- Follow accessibility best practices (WCAG 2.1)
+- Add smart search functionality
+- Implement natural language descriptions
+- Add interactive tutorials and onboarding
+- Implement collaborative features
+
+## Core Product Features
+- Model Analysis
+  - Architecture visualization
+  - Performance profiling
+  - Memory usage analysis
+  - Training metrics display
+  - Hardware utilization stats
+  - Model comparison tools
+  - Documentation generation
+
+- Advanced Visualization
+  - Layer grouping
+  - Custom layout options
+  - Edge bundling
+  - Path highlighting
+  - Pattern detection
+  - Performance overlays
+  - Resource usage maps
+
+- Collaboration Features
+  - Real-time collaborative viewing
+  - Model sharing and version control
+  - Team annotations and comments
+  - Documentation tools
+  - Knowledge base integration
+  - Model registry
+  - Team activity tracking
+
+- Developer Tools
+  - Command palette
+  - Keyboard shortcuts
+  - Custom scripting support
+  - Plugin system
+  - API integration
+  - Debug tools
+  - Code generation
+
+## Visualization Guidelines
+- Implement clear, hierarchical neural network visualization
+- Use left-to-right flow for network architecture
+- Show tensor shapes and types on connections
+- Group related operations (Conv->ReLU->Pool sequences)
+- Provide collapsible node groups for complex models
+- Implement smart edge routing to minimize crossings
+- Use consistent color coding for operation types
+- Show detailed node information on hover/selection
+- Support zooming and panning with minimap
+- Enable searching and highlighting specific nodes
+- Provide clear visual hierarchy between different operation types
+- Support custom layout algorithms
+- Implement performance overlay views
+- Show resource utilization indicators
+- Add model complexity metrics
+
+## Modern Product Features
+- Progressive Web App (PWA) Support
+  - Offline model viewing
+  - Push notifications for long operations
+  - Background sync for large models
+  - Local model caching
+  - Quick model previews
+
+- Performance Optimization
+  - WebAssembly for heavy computations
+  - Web Workers for background tasks
+  - Lazy loading for large models
+  - Incremental model loading
+  - Viewport-based rendering
+  - Asset optimization pipeline
+
+- Developer Experience
+  - OpenAPI documentation
+  - SDK generation
+  - CI/CD pipeline integration
+  - Development environment containers
+  - Hot reload support
+  - Type safety across stack
+  - Automated testing
+
+- Enterprise Features
+  - SSO integration
+  - Role-based access control
+  - Audit logging
+  - Usage analytics
+  - Team management
+  - Custom branding options
+  - API rate limiting
+
+## Security & Compliance
+- Implement robust authentication
+- Add role-based access control
+- Follow GDPR compliance guidelines
+- Implement model privacy controls
+- Add audit logging for sensitive operations
+- Secure API endpoints
+- Implement rate limiting
+- Add data encryption at rest
+- Enable secure model sharing
+- Implement backup strategies
+
+## Analytics & Monitoring
+- User behavior tracking
+- Performance metrics collection
+- Error tracking and reporting
+- Usage pattern analysis
+- A/B testing framework
+- Conversion funnel tracking
+- Feature adoption metrics
+- User feedback collection
+- System health monitoring
+- Resource utilization tracking
+
+## Documentation & Support
+- Interactive documentation
+- Video tutorials
+- Getting started guides
+- API documentation
+- Best practices guide
+- Troubleshooting guide
+- Community support forum
+- Knowledge base
+- FAQ section
+- Change log
+- Release notes

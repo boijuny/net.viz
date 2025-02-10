@@ -1,0 +1,105 @@
+---
+description: 
+globs: 
+---
+## Backend Development Rules
+- Use Python as the primary backend language.
+- Implement the backend using Flask or FastAPI for API services.
+- Use `onnx` and `onnxruntime` for ONNX model handling.
+- Extract model layers and operations using `model.graph.node`.
+- Ensure the backend supports multiple model uploads.
+- Return model metadata in a structured JSON format.
+- Optimize graph extraction using NetworkX where applicable.
+- Provide API endpoints for:
+  - Uploading ONNX models.
+  - Retrieving model metadata.
+  - Serving model visualization data.
+- Implement CORS handling for frontend compatibility.
+- Log critical errors for debugging and monitoring.
+
+## API Design
+- Use FastAPI for RESTful API development
+- Implement proper API versioning
+- Use Pydantic for request/response validation
+- Follow OpenAPI specification
+- Implement proper error handling
+- Use async/await for better performance
+- Implement proper rate limiting
+- Support CORS for frontend integration
+
+## ONNX Model Processing
+- Implement efficient model parsing
+- Extract complete graph structure
+- Calculate tensor shapes and types
+- Group related operations
+- Generate layout hints for visualization
+- Cache processed model data
+- Handle large models efficiently
+- Validate model integrity
+
+## Graph Processing
+- Implement smart layout algorithms
+- Calculate node positions and levels
+- Optimize edge routing
+- Group related operations
+- Calculate tensor flow
+- Generate simplified views
+- Support partial model loading
+- Implement graph search functionality
+
+## Performance
+- Use async operations where possible
+- Implement proper caching
+- Use background tasks for heavy processing
+- Optimize memory usage
+- Support streaming for large models
+- Implement proper connection pooling
+- Monitor performance metrics
+
+## Security
+- Implement proper authentication
+- Validate file uploads
+- Sanitize user inputs
+- Implement rate limiting
+- Use secure headers
+- Follow OWASP guidelines
+- Implement proper logging
+- Handle sensitive data appropriately
+
+## Error Handling
+- Use proper exception handling
+- Return meaningful error messages
+- Log errors appropriately
+- Implement retry mechanisms
+- Handle timeouts properly
+- Validate input data
+- Implement fallback mechanisms
+
+## Testing
+- Write unit tests
+- Implement integration tests
+- Test error scenarios
+- Test performance
+- Test security measures
+- Use proper test fixtures
+- Implement CI/CD pipeline
+
+## Documentation
+- Document API endpoints
+- Use proper type hints
+- Document model processing
+- Maintain changelog
+- Document setup process
+- Include usage examples
+- Document error codes
+- Keep documentation up to date
+
+## Monitoring
+- Implement proper logging
+- Monitor performance metrics
+- Track error rates
+- Monitor resource usage
+- Implement health checks
+- Set up alerts
+- Track API usage
+- Monitor cache efficiency

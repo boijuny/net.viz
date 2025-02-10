@@ -1,0 +1,12 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+onnx==1.15.0
+onnxruntime==1.16.3
+networkx==3.2.1
+numpy==1.26.3
+pydantic==2.5.3
+pytest==7.4.4
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0 

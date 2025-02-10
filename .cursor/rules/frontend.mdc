@@ -1,0 +1,98 @@
+---
+description: 
+globs: 
+---
+
+## Frontend Development Rules
+- Use React.js or Vue.js as the primary frontend framework.
+- Utilize D3.js or Graphviz to render ONNX computational graphs.
+- Implement an interactive UI with:
+  - Zoom and pan features.
+  - Clickable nodes for layer inspection.
+  - Hover tooltips displaying tensor information.
+- Ensure responsive design for different screen sizes.
+- Implement a model summary panel displaying:
+  - Total layers and parameters.
+  - Operation types and their count.
+  - Input and output shapes.
+- Provide drag-and-drop file upload for ONNX models.
+- Ensure real-time UI updates when a model is loaded.
+- Use WebSockets or REST API calls to fetch visualization data.
+- Display error messages for invalid model files.
+
+## Component Architecture
+- Use functional components with TypeScript
+- Implement proper component composition and reusability
+- Follow atomic design principles (atoms, molecules, organisms)
+- Use React Context for state management when appropriate
+- Implement proper error boundaries and fallbacks
+
+## UI Framework and Styling
+- Use shadcn/ui as the primary component library
+- Implement Tailwind CSS for custom styling
+- Follow a consistent color palette and design tokens
+- Use CSS variables for theme customization
+- Implement responsive breakpoints consistently
+- Use CSS Grid and Flexbox for layouts
+- Support both light and dark modes
+
+## Visualization Components
+- Implement custom layout engine for neural network visualization
+- Use SVG for rendering network graphs
+- Implement smart edge routing algorithms
+- Support node grouping and collapsing
+- Show tensor information on edges
+- Implement minimap for navigation
+- Support search and highlighting
+- Enable zoom and pan controls
+- Show detailed node information in side panel
+- Support keyboard shortcuts for common actions
+
+## Performance
+- Implement code splitting and lazy loading
+- Use React.memo for expensive renders
+- Implement virtualization for large graphs
+- Optimize SVG rendering performance
+- Use Web Workers for heavy computations
+- Implement proper loading states
+- Cache computed layouts when possible
+
+## Accessibility
+- Follow WCAG 2.1 guidelines
+- Implement proper ARIA labels
+- Ensure keyboard navigation
+- Support screen readers
+- Maintain proper color contrast
+- Provide text alternatives for visual elements
+
+## Animation and Interaction
+- Use Framer Motion for smooth animations
+- Implement consistent transition timings
+- Use loading skeletons during data fetching
+- Implement proper hover and focus states
+- Use gestures for touch devices
+- Provide visual feedback for user actions
+
+## Error Handling
+- Implement proper error boundaries
+- Show user-friendly error messages
+- Provide fallback UI states
+- Log errors for debugging
+- Handle network errors gracefully
+- Implement retry mechanisms
+
+## State Management
+- Use React Query for server state
+- Implement proper loading states
+- Handle optimistic updates
+- Cache responses appropriately
+- Handle error states consistently
+- Use local storage when appropriate
+
+## Testing
+- Write unit tests for components
+- Implement integration tests
+- Test accessibility
+- Test responsive behavior
+- Test error states
+- Test performance benchmarks
