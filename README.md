@@ -28,8 +28,8 @@ Modern neural network visualization for the AI era. Explore, analyze, and unders
 - 🔍 **Model Analysis**
   - Detailed layer inspection
   - Parameter visualization
-  - Memory usage analysis
-  - Performance profiling
+  - Memory usage analysis (upcoming)
+  - Performance profiling (upcoming)
 
 - 🎨 **Modern UI/UX**
   - Dark/Light theme support
