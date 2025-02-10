@@ -147,8 +147,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by the net.viz team
-
 [![GitHub Repo stars](https://img.shields.io/github/stars/boijuny/net.viz?style=social)](https://github.com/boijuny/net.viz)
 [![Follow on GitHub](https://img.shields.io/github/followers/boijuny?style=social)](https://github.com/boijuny)
 
